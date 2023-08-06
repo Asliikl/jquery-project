@@ -1,0 +1,61 @@
+/* 
+project name:blog pages
+project author.bil. asli ikiel
+project year 23 temmuz 2023
+
+*/
+
+/* config file  */
+*{
+    box-sizing: border-box!important;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    position: relative;
+    /* relative üsttekine göre kendini ayarlar */
+  
+}
+html{
+    font-size:15px ;
+}
+.f20{
+    font-size: .5rem;
+}
+/* nav */
+nav{
+    opacity:.9;
+}
+
+/* header */
+header .jumbotron{
+    background-image: url(img/bg-2.jpeg);
+    background-size: cover; /* düzenli yerleştirir */
+    background-position: center;
+    padding-top: 12rem;
+    height: 30rem; 
+    /* header rem boyut dikkat */
+    z-index: -1;
+}
+#header-h2{
+   text-transform: uppercase;
+   color: black; 
+}
+
+/* breadcrumb */
+nav ol.breadcrumb{
+    margin-top: -1.7%;
+    background-color:#f0eccd!important;
+}
+
+.col-md-8:hover{
+    opacity: .9;
+}
+
+/* footer */
+footer{
+    min-height: 20rem;
+    width: auto;
+}
